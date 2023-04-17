@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/'
+                git branch: 'main', url: 'https://github.com/Naveen3-rgb/jenkins-pipeline.git'
             }
         }
         stage('Build & JUnit Test') {
